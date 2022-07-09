@@ -2700,7 +2700,7 @@ body._lock {
 
   .objects__body-slider {
     padding-bottom: calc(
-				30px + 36 * ((100vw - 320px) / (1110 - 320))
+				35px + 31 * ((100vw - 320px) / (1110 - 320))
 			);
   }
 
@@ -2748,7 +2748,7 @@ body._lock {
 
   .body-work__slider {
     padding-bottom: calc(
-				28px + 50 * ((100vw - 320px) / (1110 - 320))
+				35px + 43 * ((100vw - 320px) / (1110 - 320))
 			);
   }
 
@@ -2863,7 +2863,8 @@ body._lock {
   }
 
   .body-work__slider {
-    padding: 0 0.625em;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
   }
 }
 

@@ -275,6 +275,13 @@ h6 {
   visibility: hidden;
 }
 
+.visually-hidden {
+  position: fixed;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
 .btn {
   display: -webkit-box;
   display: -ms-flexbox;
